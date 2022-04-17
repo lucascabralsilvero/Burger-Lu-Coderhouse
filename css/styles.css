@@ -1,0 +1,220 @@
+
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+    font-family: 'Lora', serif;
+  }
+
+.navbar{
+ font-family: 'Karla', sans-serif;
+ font-size: 1.5rem;
+}
+
+  
+  /*CAROUSEL
+  ------------------------------ */
+  
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  
+  .carousel-item {
+    margin-top:4.9rem;
+    height: 40rem;
+
+  }
+  .carousel-item > img {
+      height: 100%;
+  }
+
+
+
+
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 4rem 0;
+  }
+  
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  
+  .text-decoration-none{
+    color: black;
+    font-size: 1.2rem;
+  }
+
+  .text-decoration-none:hover{
+    color: red;
+  }
+
+
+  /* Menú Start */
+
+  .menu-container{
+    margin-top: 5rem;
+  }
+
+  .menu-container > h3{
+    background-color:grey;
+    color: white;
+  }
+
+  .menu-container > h3:hover{
+    background-color: #c99d19;
+    cursor: pointer;
+  }
+
+
+
+  /* Menú End */
+
+  /* Contact Start */
+
+    
+.contact-form-wrapper {
+  padding: 100px 0;
+}
+
+.contact-form {
+  margin-top: 4rem;
+  padding: 30px 40px;
+  background-color: rgb(220, 53, 69);
+  border-radius: 12px;
+  max-width: 400px;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form .form-input,
+.form-text-area {
+  background-color: #f0f4f5;
+  height: 50px;
+  padding-left: 16px;
+}
+
+.contact-form .form-text-area {
+  background-color: #f0f4f5;
+  height: auto;
+  padding-left: 16px;
+}
+
+.contact-form .form-control::placeholder {
+  color: #aeb4b9;
+  font-weight: 500;
+  opacity: 1;
+}
+
+.contact-form .form-control:-ms-input-placeholder {
+  color: #aeb4b9;
+  font-weight: 500;
+}
+
+.contact-form .form-control::-ms-input-placeholder {
+  color: #aeb4b9;
+  font-weight: 500;
+}
+
+.contact-form .form-control:focus {
+  border-color: #f33fb0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #f33fb0;
+}
+
+.contact-form .title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  color:  #e0b840;
+}
+
+.contact-form .description {
+  color:  white;
+  font-size: 14px;
+  text-align: center;
+}
+
+.contact-form .submit-button-wrapper {
+  text-align: center;
+}
+
+.contact-form .submit-button-wrapper input {
+  border: none;
+  border-radius: 4px;
+  background-color: #e0b840;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 60px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.contact-form .submit-button-wrapper input:hover {
+  background-color: #c99d19;
+}
+
+.footer-contact{
+    margin-top: 2rem;
+}
+
+
+  /* Contact End */
+
+
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+
+    .carousel-control-prev-icon{
+      height: 5rem;
+      width: 4rem;
+    }
+    
+    .carousel-control-next-icon{
+      height: 5rem;
+      width: 4rem;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+
+    .navbar-brand img{
+        margin-left: 5rem;
+    }
+
+
+  }
